@@ -1,0 +1,128 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+header {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+#tema-btn {
+    margin-top: 1rem;
+    background-color: #3b82f6;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#tema-btn:hover {
+    background-color: #2563eb;
+}
+
+/* Secciones */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Servicios */
+.servicios-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.servicio {
+    flex: 1;
+    min-width: 200px;
+    background-color: #f3f4f6;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.servicio:hover {
+    background-color: #e5e7eb;
+}
+
+/* Contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input {
+    padding: 0.7rem;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background-color: #3b82f6;
+    border: none;
+    color: white;
+    padding: 0.7rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #2563eb;
+}
+
+/* Tema oscuro */
+.dark {
+    background-color: #1f2937;
+    color: white;
+}
+
+.dark header {
+    background-color: #111827;
+}
+
+.dark .servicio {
+    background-color: #374151;
+    color: white;
+}
+
+.dark input {
+    background-color: #374151;
+    color: white;
+    border: 1px solid #4b5563;
+}
+
+.dark button[type="submit"] {
+    background-color: #2563eb;
+}
