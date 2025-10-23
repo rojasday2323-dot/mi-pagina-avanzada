@@ -126,3 +126,8 @@ button[type="submit"]:hover {
 .dark button[type="submit"] {
     background-color: #2563eb;
 }
+
+.rosa {
+    background-color: #fbcfe8; /* rosa claro */
+    color: #111827; /* texto oscuro */
+}
